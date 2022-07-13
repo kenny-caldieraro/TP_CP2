@@ -1,0 +1,61 @@
+@media screen and (max-width: 390px) {
+  #header {
+    position: inherit;
+  }
+
+  #main {
+    padding-top: 0;
+    width: 95%;
+  }
+
+  article {
+    max-width: 100%;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  h4 {
+    text-align: center;
+  }
+
+  .price p:nth-child(1) {
+    padding-right: 0;
+  }
+
+  #footer p {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  tr {
+    height: 8vh;
+  }
+
+  form {
+    flex-direction: column;
+  }
+
+  .choise {
+    width: 100%;
+    align-items: center;
+    height: auto;
+  }
+
+  .adresse {
+    width: 100%;
+    padding-left: 0;
+    height: auto;
+  }
+
+  .contact {
+    height: auto;
+  }
+
+  button {
+    width: 40%;
+    height: auto;
+    font-size: 1rem;
+  }
+}

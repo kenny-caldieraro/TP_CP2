@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/panier.css" />
+    <link rel="stylesheet" href="../css/styleMobile.css" />
+    <title>oFig</title>
+  </head>
+  <body>
+    <div id="container">
+      <header id="header">
+        <h1><strong>oFig</strong> Figurines et statuettes</h1>
+        <h2>Votre panier <strong class="title">3 produits</strong></h2>
+      </header>
+
+      <main id="main">
+        <aside class="cursor"><p>soldes</p></aside>
+        <h3>Votre panier</h3>
+
+        <section class="recap">
+          <table>
+            <thead>
+              <tr>
+                <th>Figurine</th>
+                <th>Prix unitaire</th>
+                <th>Quantité</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Cloud Strife</td>
+                <td>59 €</td>
+                <td>
+                  <input type="number" value="1" />
+                  <a href="#">supprimer</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Tifa Lockhart</td>
+                <td>69 €</td>
+                <td>
+                  <input type="number" value="1" />
+                  <a href="#">supprimer</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Barret Wallace</td>
+                <td>69 €</td>
+                <td>
+                  <input type="number" value="1" />
+                  <a href="#">supprimer</a>
+                </td>
+              </tr>
+            </tbody>
+
+            <tfoot>
+              <tr>
+                <td>Total de la commande</td>
+                <td>197 €</td>
+              </tr>
+            </tfoot>
+          </table>
+        </section>
+        <hr />
+        <h3>Préférences de livraison</h3>
+        <section class="contact">
+          <form action="#" method="post">
+            <article class="choise">
+              <h4>Où souhaitez-vous être livré ?</h4>
+              <div class="choise__left">
+                <label for="current"
+                  ><input type="radio" name="current" id="current" /> Mon
+                  adresse courante</label
+                >
+                <label for="other"
+                  ><input type="radio" name="other" id="other" checked /> Autre
+                  adresse</label
+                >
+
+                <h4>Options</h4>
+
+                <label for="suivi"
+                  ><input type="checkbox" name="suivi" id="suivi" checked />
+                  Suivi de livraison par sms (inclus)</label
+                >
+
+                <label for="remboursement"
+                  ><input
+                    type="checkbox"
+                    name="remboursement"
+                    id="remboursement"
+                  />
+                  Satisfait ou remboursé (+2 euros)</label
+                >
+
+                <label for="garantie"
+                  ><input type="checkbox" name="garantie" id="garantie" />
+                  Garantie 2 ans (+10 euros)</label
+                >
+              </div>
+            </article>
+            <article class="adresse">
+              <h4>Adresse</h4>
+              <div class="adresse_right">
+                <label for="rue">Rue</label>
+                <input type="text" name="rue" id="rue" required />
+                <label for="cp">Code postal</label>
+                <input type="number" name="cp" id="cp" required />
+                <label for="ville">Ville</label>
+                <input type="text" name="ville" id="ville" required />
+                <h4>Informations complémentaires</h4>
+                <label for="info">interphone, bâtiment, etc.</label>
+                <textarea name="info" id="info" cols="30" rows="5"></textarea>
+              </div>
+            </article>
+          </form>
+        </section>
+        <hr />
+        <section class="total">
+          <h3>Montant total à régler :</h3>
+          <h3>197 €</h3>
+        </section>
+        <hr />
+        <section class="button">
+          <button>Continuer vos achats</button>
+          <button>Valider et payer</button>
+        </section>
+        <hr />
+      </main>
+
+      <footer id="footer">
+        <p>oFig - toutes les images sont sous copyright SquareEnix</p>
+      </footer>
+    </div>
+  </body>
+</html>
